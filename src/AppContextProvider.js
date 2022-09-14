@@ -1,10 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import pokemons from './pokemon.json';
-// import PokemonDetail from './PokemonDetail';
 
-// Create a context object, can be used anywhere we need
-// to access the context info in this provider.
 export const AppContext = React.createContext({ list: [] });
 
 export function AppContextProvider({ children }) {

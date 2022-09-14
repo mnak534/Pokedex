@@ -3,8 +3,10 @@ import {AppContext} from './AppContextProvider'
 import {useContext} from 'react';
 import PokemonDetail from './PokemonDetail';
 
-function PokemonList() {
+//PokemonList.js : represents a list component
 
+function PokemonList() {
+    
     const {currentPokemon, onPokemonClick} = useContext(AppContext);
 
     return(

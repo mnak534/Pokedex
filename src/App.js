@@ -1,20 +1,11 @@
-import PokemonDetail from './PokemonDetail';
 import PokemonList from './PokemonList';
 import React from 'react';
-import {AppContext} from './AppContextProvider'
-import {useContext} from 'react';
+import MainPage from './MainPage';
 
 function App() {
-
-  /*Need to set the curerntPokemon passed from the ppokemonList */
-  const {pokemonList, onPokemonClick} = useContext(AppContext);
-
   return (
     <div>
-      <React.Fragment>
-        <h1>Pokédex</h1>
-        <PokemonList/>
-      </React.Fragment>
+      <MainPage/>
     </div>
   );
 }
