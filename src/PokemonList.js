@@ -11,7 +11,7 @@ function PokemonList() {
         <div className='parent'>
             <ul classsName = 'menu'>
                 {pokemonList.map((pokemon, index) => (
-                    <li key = {pokemon.id} onClick={() => onPokemonClick(index)}> No.{pokemon.id} : {pokemon.name} </li>
+                    <li key = {pokemon.id} onClick={() => onPokemonClick(index)} style = {{width: '400px', fontSize: '30px'}}> No.{pokemon.id} : {pokemon.name} </li>
                 ))}
             </ul>
             <PokemonDetail pokemon = {currentPokemon} className = 'content'/> 
