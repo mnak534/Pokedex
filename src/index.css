@@ -1,19 +1,9 @@
-/* @font-face {
-  font-family: 'pokemon';
-  src: url(../fonts/Pokemon_GB.ttf) format(‘truetype’);
-} */
-
 @import url(https://fonts.googleapis.com/css?family="Luckiest+Guy");
 
 body {
   background-color:rgba(228, 57, 27, 0.838);
   margin: 0;
   font-family: 'DotGothic16', sans-serif;
-  /* height:10000px; */
-  /* , Andale Mono	
-, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,12 +19,9 @@ h1 {
 
 code {
   font-family: 'DotGothic16', sans-serif;
-  /* , Menlo, Monaco, Consolas, 'Courier New', */
-    /* monospace; */
 }
 
 .box{
-  /* height: 7.5rem; */
   margin-left:24%;
   margin-right: auto;
   width: 70%;
@@ -60,7 +47,6 @@ ul {
   top: 50px; 
   left: 0;
   overflow-y: scroll;
-  position: fixed;
 }
 
 li {
@@ -89,9 +75,3 @@ li:hover {
   background-color: #04AA6D;
   color: white;
 }
-
-/* @media only screen and (min-hight: 10000px){
-  body{
-    display:flex;
-  }
-} */
