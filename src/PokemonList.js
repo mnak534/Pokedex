@@ -6,7 +6,7 @@ import PokemonDetail from './PokemonDetail';
 //PokemonList.js : represents a list component
 
 function PokemonList() {
-    
+
     const {currentPokemon, onPokemonClick} = useContext(AppContext);
 
     return(

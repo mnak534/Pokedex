@@ -4,9 +4,12 @@ import MainPage from './MainPage';
 
 function App() {
   return (
-    <div>
-      <MainPage/>
-    </div>
+    // <Routes>
+    //   <Route path="/" element={<MainPage />}>
+    //   <Route path=":id" element={<PokemonDetail />} />
+    //   </Route>
+    // </Routes>
+    <MainPage/> 
   );
 }
 
