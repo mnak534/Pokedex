@@ -14,11 +14,6 @@ function App() {
       <React.Fragment>
         <h1>Pokédex</h1>
         <PokemonList/>
-        
-        {/* <PokemonList/>
-        {pokemonList.map((mon) => (<PokemonDetail pokemon = {mon}/>
-        ))} */}
-        {/* <PokemonDetail pokemon = {currentPokemon}/> */}
       </React.Fragment>
     </div>
   );

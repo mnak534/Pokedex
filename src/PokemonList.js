@@ -8,13 +8,13 @@ function PokemonList() {
     const {currentPokemon, onPokemonClick} = useContext(AppContext);
 
     return(
-        <div>
-            <PokemonDetail pokemon = {currentPokemon}/>
-            <ul>
+        <div className='parent'>
+            <ul classsName = 'menu'>
                 {pokemonList.map((pokemon, index) => (
                     <li key = {pokemon.id} onClick={() => onPokemonClick(index)}> No.{pokemon.id} : {pokemon.name} </li>
                 ))}
             </ul>
+            <PokemonDetail pokemon = {currentPokemon} className = 'content'/> 
         </div>
     );
 }
